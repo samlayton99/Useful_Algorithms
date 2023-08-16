@@ -1,9 +1,8 @@
-"""Volume 1: The SVD and Image Compression."""
-
 import numpy as np
 from scipy import linalg as la
 from matplotlib import pyplot as plt
 from imageio import imread
+
 
 # Problem 1
 def compact_svd(A, tol=1e-6):
