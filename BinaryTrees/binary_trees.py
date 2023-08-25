@@ -435,7 +435,7 @@ def prob4():
     """
 
     # import random sample of data of size n from "english.txt" file and store in a list
-    with open("english.txt", "r") as f:
+    with open("input_files/english.txt", "r") as f:
         data = f.readlines()
     data = [x.strip() for x in data]
 

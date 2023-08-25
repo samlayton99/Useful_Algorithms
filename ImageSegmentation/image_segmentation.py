@@ -236,7 +236,7 @@ class ImageSegmenter:
 
 
 # if __name__ == '__main__':
-#     ImageSegmenter("dream_gray.png").segment()
-#     ImageSegmenter("dream.png").segment()
-#     ImageSegmenter("monument_gray.png").segment()
-#     ImageSegmenter("monument.png").segment()
+#     ImageSegmenter("input_files/dream_gray.png").segment()
+#     ImageSegmenter("input_files/dream.png").segment()
+#     ImageSegmenter("input_files/monument_gray.png").segment()
+#     ImageSegmenter("input_files/monument.png").segment()

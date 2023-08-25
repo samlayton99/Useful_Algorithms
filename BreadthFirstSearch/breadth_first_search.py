@@ -208,7 +208,7 @@ class MovieGraph:
     """Class for solving the Kevin Bacon problem with movie data from IMDb."""
 
     # Problem 4
-    def __init__(self, filename="movie_data.txt"):
+    def __init__(self, filename="input_files/movie_data.txt"):
         """Initialize a set for movie titles, a set for actor names, and an
         empty NetworkX Graph, and store them as attributes. Read the speficied
         file line by line, adding the title to the set of movies and the cast

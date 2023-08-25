@@ -136,7 +136,7 @@ def get_ranks(d):
 
 
 # Problem 4
-def rank_websites(filename="web_stanford.txt", epsilon=0.85):
+def rank_websites(filename="input_files/web_stanford.txt", epsilon=0.85):
     """Read the specified file and construct a graph where node j points to
     node i if webpage j has a hyperlink to webpage i. Use the DiGraph class
     and its itersolve() method to compute the PageRank values of the webpages,
@@ -217,7 +217,7 @@ def rank_ncaa_teams(filename, epsilon=0.85):
             
 
 # Problem 6
-def rank_actors(filename="top250movies.txt", epsilon=0.85):
+def rank_actors(filename="input_files/top250movies.txt", epsilon=0.85):
     """Read the specified file and construct a graph where node a points to
     node b with weight w if actor a and actor b were in w movies together but
     actor b was listed first. Use NetworkX to compute the PageRank values of
