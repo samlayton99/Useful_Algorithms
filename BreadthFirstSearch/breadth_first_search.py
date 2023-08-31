@@ -279,10 +279,17 @@ class MovieGraph:
         plt.ylabel("Frequency")
 
         # Give a title and show the plot
-        plt.title("Distribution of Path Lengths")
+        plt.title("Distribution of Path Lengths Among Actors")
         plt.tight_layout()
+        plt.savefig('figures/Problem6.png')
         plt.show()
 
         # Return the average path length
         return sum(values) / len(values)
         
+# run test cases that plot for problem 6
+if __name__ == "__main__":
+    # Problem 6
+    mg = MovieGraph()
+    mg.average_number("Kevin Bacon")
+    
